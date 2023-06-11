@@ -4,7 +4,7 @@ const card = document.querySelector('section')
 const countries = async (url) => {
     const data = await fetch(url)
     const response = await data.json()
-console.log(response);
+
 
     const countriesdata = response.map(element => {
         return { img: element.flags,
