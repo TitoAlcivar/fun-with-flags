@@ -1,0 +1,22 @@
+body{
+    font-family: 'Outfit', sans-serif;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+}
+
+.country {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 31px;
+    border-radius: 8px;
+    border: 1px solid #D6D1CB;
+    transition: background-color 0.3s;
+}
